@@ -1,13 +1,13 @@
  /*@font-face { font-family: Arcon; src: url('Arcon-Regular.otf'); }*/
- @font-face { font-family: LemonMilk; src: url('LemonMilk.otf'); }
- @font-face { font-family: London; src: url('LondonBetween.ttf'); }
+ @font-face { font-family: LemonMilk; src: url('fonts/LemonMilk.otf'); }
+ @font-face { font-family: London; src: url('fonts/LondonBetween.ttf'); }
 
 
 body{
   overflow-y: scroll;
   overflow-x:hidden;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
 
@@ -34,7 +34,7 @@ body{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation: 
+  animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
@@ -48,7 +48,7 @@ body{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% 
+  50%
 }
 
 
@@ -63,13 +63,13 @@ body{
   line-height: 53.9px;
   color: #ffb400;
   text-align: center;
-  width:inherit; 
+  width:inherit;
 }
 
 
-.homepage { 
-  background-color: #ffb400; 
-  height: 100%; 
+.homepage {
+  background-color: #ffb400;
+  height: 100%;
 }
 
 
@@ -109,16 +109,16 @@ body{
 
 #about {
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #about .aboutheader{
   position:inherit;
   padding-top: 75px;
-  float: left; 
+  float: left;
   padding-left: 100px;
   margin-bottom: 0;
   font-size: 65px;
@@ -126,7 +126,7 @@ body{
 
 #yolo{
   width:100%;
-  height: auto; 
+  height: auto;
 }
 
 .img-circle {
@@ -136,34 +136,34 @@ body{
 p{
   margin: 0;
   padding-left: 150px;
-  padding-right: 150px; 
+  padding-right: 150px;
   position: absolute;
   float:left;
   font-family: London;
   padding-top: 300px;
   font-size: 30px;
-  float: right; 
+  float: right;
   color: #ffb400;
 }
 
 #work {
   position: relative;
-  height:150%; 
+  height:150%;
   width: 100%;
   margin: 0 auto;
-  background-color: #ffb400; 
+  background-color: #ffb400;
 }
 
 #work .workheader{
   position:inherit;
   padding-top: 50px;
   padding-bottom:0;
-  float: left; 
+  float: left;
   padding-left: 100px;
   margin-bottom: 0;
   color: white;
-  font-family: LemonMilk; 
-  font-size:65px; 
+  font-family: LemonMilk;
+  font-size:65px;
 }
 
 .pictures{
@@ -189,7 +189,7 @@ overflow-x:auto;
 }
 
 h2{
-  font-family: LemonMilk; 
+  font-family: LemonMilk;
   font-size: 40px;
   color: white;
   padding:0;
@@ -207,7 +207,7 @@ h2{
   opacity:.6;
   margin-bottom:30px;
   /*border-width:1px;
-  border-color:#e56800; 
+  border-color:#e56800;
   border-style:solid;
   border-radius: 10px;*/
 }
@@ -234,16 +234,16 @@ opacity:1;
 
 #projects {
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #projects .projectheader{
   position:inherit;
   padding-top: 75px;
-  float: left; 
+  float: left;
   padding-left: 100px;
   margin-bottom: 0;
   font-size: 65px;
@@ -259,10 +259,10 @@ opacity:1;
 
 #verizon{
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #verizon .verizonheader{
@@ -290,10 +290,10 @@ opacity:1;
 
 #icam{
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #icam .icamheader{
@@ -320,10 +320,10 @@ opacity:1;
 
 #ddt{
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #ddt .ddtheader{
@@ -394,10 +394,10 @@ opacity:1;
 
 #asucd{
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #asucd .asucdheader{
@@ -423,10 +423,10 @@ opacity:1;
 
 #calpirg{
   position: relative;
-  height:100%; 
+  height:100%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 #calpirg .calpirgheader{
@@ -452,10 +452,10 @@ opacity:1;
 
 #digit{
   position: relative;
-  height:125%; 
+  height:125%;
   width: 100%;
   margin: 0 auto;
-  background-color: white; 
+  background-color: white;
 }
 
 
