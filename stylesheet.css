@@ -19,8 +19,8 @@ body{
 }
 
 article {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 #home {
@@ -31,6 +31,7 @@ article {
 #home .fa {
   color:white;
   margin-top: 200px;
+  cursor: pointer;
 }
 
 .bounce {
@@ -50,15 +51,10 @@ ul {
 }
 
 #nav {
+  position:fixed;
+  z-index:10;
   background: #edd9c0;
-}
-
-.no-left-border {
-  border-left: none !important;
-}
-
-.no-right-border {
-  border-right: none !important;
+  border-bottom: #7d4627 1px solid;
 }
 
 #nav li {
@@ -67,8 +63,6 @@ ul {
   font-family: London;
   font-size:20px;
   padding: 15px 0;
-  border-right: #7d4627 0.5px solid;
-  border-left: #7d4627 0.5px solid;
 }
 
 #name {
@@ -82,12 +76,11 @@ ul {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-}
-
-.animated {
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 .imgBox {
@@ -113,4 +106,10 @@ ul {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50%
+}
+
+h2 {
+  text-transform: capitalize;
+  padding: 40px 0;
+  font-size:50px !important;
 }
