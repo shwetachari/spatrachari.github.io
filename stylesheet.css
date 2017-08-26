@@ -54,7 +54,7 @@ ul {
   position:fixed;
   z-index:10;
   background: #edd9c0;
-  border-bottom: #7d4627 1px solid;
+  /*border-bottom: #7d4627 1px solid;*/
 }
 
 #nav li {
@@ -83,17 +83,49 @@ ul {
   animation-duration: 3s;
 }
 
+#about {
+  background: #a8b6bf;
+  color: white;
+}
+
+#about p {
+  font-family: London, sans-serif;
+  display:inline-block;
+  font-size:25px;
+  margin-top:3%;
+}
+
+#work {
+  background: #edd9c0;
+  color: #7d4627;
+}
+
 .imgBox {
   overflow-y: hidden;
   display:inline-block;
-  background-color: skyblue;
+  background-color: #a8b6bf;
   margin-bottom:20px;
 }
 
 .imgBox a .fa{
   padding-top: 75px;
   padding-bottom: 75px;
+  color: white;
+}
+
+#projects {
+  background-color: #c9d8c5;
   color:white;
+}
+
+.projectbutton {
+  margin-bottom: 15px;
+  padding: 80px 0;
+  max-height: 188px !important;
+  background: white;
+  color: #7d4627;
+  font-family: London, sans-serif;
+  font-size: 20px;
 }
 
 /* The typing effect */
